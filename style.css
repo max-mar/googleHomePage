@@ -1,0 +1,139 @@
+body {
+    height: 100%;
+    font-family: arial, sans-serif;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0
+}
+
+nav a {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.link_nav {
+  padding: 10px;
+}
+
+#button {
+    width: 75px;
+    height: 13px;
+    background-color: rgb(67, 135, 253);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+}
+
+img[alt="Google"] {
+  margin-top: 110px;
+}
+
+#search {
+  display: flex;
+  justify-content:
+}
+
+#search_bar {
+    width: 565px;
+    height: 45px;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 1px;
+    padding-left: 13px;
+}
+
+input:hover {
+    box-shadow: 0px 3px 5px 1px #d3d3d3;     
+ }
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+/*    Flex-direction change main-axis => align-items works for justify-content: */
+/*    border: 1px solid green; */
+}
+
+#logo, #search_submit {
+    padding: 25px;
+}
+
+footer, footer a {
+    color: rgba(0,0,0,0.54);
+    background-color: #f2f2f2;
+}
+
+#infos {
+    height: 40px;
+    border-top: 1px solid #D9D9D9;
+    box-shadow: -2px 0px black;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #f2f2f2; 
+    color: rgba(0,0,0,0.54);
+    height: 37px;
+    width: 160px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px white;
+    border: none;
+    font-weight: 500;
+    font-size: small;
+    margin: 5px;
+}
+
+button:hover {
+    border: 1px solid rgb(0,0,0,.12);
+    color: black;    
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+}
+
+#france {
+    border-top: 1px solid #D9D9D9;
+    box-shadow: 2px 0px black;
+    padding-left: 30px;
+    text-align: left;
+    height: 40px;
+}
+
+#infos a {
+    margin-right: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
