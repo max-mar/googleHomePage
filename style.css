@@ -1,0 +1,84 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+nav a {
+    color: rgba(0, 0, 0, 0.87);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid red;
+}
+
+.link_nav {
+  padding: 25px;
+  margin: 5px;
+  border: 1px solid green;
+}
+
+/*
+#logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid blue;
+}
+
+img[alt="Google"] {
+  border: 1px solid red;
+  margin: 25px;
+}
+
+#search {
+  display: flex;
+  justify-content:
+}
+
+input {
+  width: 700px;
+}
+*/
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+/*    Flex-direction change main-axis => align-items works for justify-content: */
+    border: 1px solid green; 
+}
+
+#logo, #search_submit {
+    padding: 25px;
+}
+
+#search_bar {
+    width: 585px;
+    height: 45px;
+    box-shadow: x2px 2px 2px 1px rgba(220, 220, 220, .2);
+/*    border: 1px red solid;*/
+    background-color: white;
+}
+
+footer, footer a {
+    color: rgba(0,0,0,0.54);
+    background-color: #f2f2f2;
+    border: 1px solid rgba(0,0,0,0.54);
+}
+
+#infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #f2f2f2; 
+}
+#pub, #conso {
+    border: 1px solid red;
+}

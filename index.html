@@ -10,24 +10,28 @@
 <body>
     <header>
         <nav>
-            <a href="https://www.google.com/intl/fr/gmail/about/#">Gmail</a>
-            <a href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a>
-            <img url="" />
+            <a class="link_nav" href="https://www.google.com/intl/fr/gmail/about/#">Gmail</a>
+            <a class="link_nav" href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a>
+            <!--<img class="link_nav" url="" />-->
             <!-- il faudra revenir là pour le logo en multiples carrés -->
-            <a class="button" href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connexion</a>
+            <a class="link_nav" id="button" href="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Connexion</a>
         </nav>
     </header>
 
-    <div id="logo">
-        <img src="Source/googlelogo_color_272x92dp.png" alt="Google">
-    </div>
+<div id="container">
+      <div id="logo">
+          <img src="Source/googlelogo_color_272x92dp.png" alt="Google">
+      </div>
 
-    <div id="search">
-        <input type="text" name="Recherche" id="search_bar">
-        <button type="button">Recherche</button>
-        <button type="button">J'ai de la chance</button>
-    </div>
-
+      <div id="search_bar">
+          <input type="text" name="Recherche" id="search_bar">
+      </div>
+      <div id="search_submit">
+          <button type="button">Recherche</button>
+          <button type="button">J'ai de la chance</button>
+      </div>
+</div>
+    
     <footer>
         <div id="france">
             <p>France</p>
